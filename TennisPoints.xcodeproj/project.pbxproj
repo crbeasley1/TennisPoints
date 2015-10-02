@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8CA39631BBF19E8005408AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CA39621BBF19E8005408AB /* main.m */; };
+		F8CA39661BBF19E8005408AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CA39651BBF19E8005408AB /* AppDelegate.m */; };
+		F8CA39691BBF19E8005408AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CA39681BBF19E8005408AB /* ViewController.m */; };
+		F8CA396C1BBF19E8005408AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CA396A1BBF19E8005408AB /* Main.storyboard */; };
+		F8CA396E1BBF19E8005408AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CA396D1BBF19E8005408AB /* Assets.xcassets */; };
+		F8CA39711BBF19E8005408AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CA396F1BBF19E8005408AB /* LaunchScreen.storyboard */; };
+		F8CA397C1BBF19E8005408AB /* TennisPointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CA397B1BBF19E8005408AB /* TennisPointsTests.m */; };
+		F8CA39871BBF19E8005408AB /* TennisPointsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CA39861BBF19E8005408AB /* TennisPointsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8CA39781BBF19E8005408AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CA39561BBF19E8005408AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CA395D1BBF19E8005408AB;
+			remoteInfo = TennisPoints;
+		};
+		F8CA39831BBF19E8005408AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CA39561BBF19E8005408AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CA395D1BBF19E8005408AB;
+			remoteInfo = TennisPoints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8CA395E1BBF19E8005408AB /* TennisPoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisPoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CA39621BBF19E8005408AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8CA39641BBF19E8005408AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8CA39651BBF19E8005408AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8CA39671BBF19E8005408AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8CA39681BBF19E8005408AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8CA396B1BBF19E8005408AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8CA396D1BBF19E8005408AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8CA39701BBF19E8005408AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8CA39721BBF19E8005408AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CA39771BBF19E8005408AB /* TennisPointsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisPointsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CA397B1BBF19E8005408AB /* TennisPointsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisPointsTests.m; sourceTree = "<group>"; };
+		F8CA397D1BBF19E8005408AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CA39821BBF19E8005408AB /* TennisPointsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisPointsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CA39861BBF19E8005408AB /* TennisPointsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisPointsUITests.m; sourceTree = "<group>"; };
+		F8CA39881BBF19E8005408AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8CA395B1BBF19E8005408AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CA39741BBF19E8005408AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CA397F1BBF19E8005408AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8CA39551BBF19E8005408AB = {
+			isa = PBXGroup;
+			children = (
+				F8CA39601BBF19E8005408AB /* TennisPoints */,
+				F8CA397A1BBF19E8005408AB /* TennisPointsTests */,
+				F8CA39851BBF19E8005408AB /* TennisPointsUITests */,
+				F8CA395F1BBF19E8005408AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8CA395F1BBF19E8005408AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA395E1BBF19E8005408AB /* TennisPoints.app */,
+				F8CA39771BBF19E8005408AB /* TennisPointsTests.xctest */,
+				F8CA39821BBF19E8005408AB /* TennisPointsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8CA39601BBF19E8005408AB /* TennisPoints */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA39641BBF19E8005408AB /* AppDelegate.h */,
+				F8CA39651BBF19E8005408AB /* AppDelegate.m */,
+				F8CA39671BBF19E8005408AB /* ViewController.h */,
+				F8CA39681BBF19E8005408AB /* ViewController.m */,
+				F8CA396A1BBF19E8005408AB /* Main.storyboard */,
+				F8CA396D1BBF19E8005408AB /* Assets.xcassets */,
+				F8CA396F1BBF19E8005408AB /* LaunchScreen.storyboard */,
+				F8CA39721BBF19E8005408AB /* Info.plist */,
+				F8CA39611BBF19E8005408AB /* Supporting Files */,
+			);
+			path = TennisPoints;
+			sourceTree = "<group>";
+		};
+		F8CA39611BBF19E8005408AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA39621BBF19E8005408AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8CA397A1BBF19E8005408AB /* TennisPointsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA397B1BBF19E8005408AB /* TennisPointsTests.m */,
+				F8CA397D1BBF19E8005408AB /* Info.plist */,
+			);
+			path = TennisPointsTests;
+			sourceTree = "<group>";
+		};
+		F8CA39851BBF19E8005408AB /* TennisPointsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA39861BBF19E8005408AB /* TennisPointsUITests.m */,
+				F8CA39881BBF19E8005408AB /* Info.plist */,
+			);
+			path = TennisPointsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8CA395D1BBF19E8005408AB /* TennisPoints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CA398B1BBF19E8005408AB /* Build configuration list for PBXNativeTarget "TennisPoints" */;
+			buildPhases = (
+				F8CA395A1BBF19E8005408AB /* Sources */,
+				F8CA395B1BBF19E8005408AB /* Frameworks */,
+				F8CA395C1BBF19E8005408AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennisPoints;
+			productName = TennisPoints;
+			productReference = F8CA395E1BBF19E8005408AB /* TennisPoints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8CA39761BBF19E8005408AB /* TennisPointsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CA398E1BBF19E8005408AB /* Build configuration list for PBXNativeTarget "TennisPointsTests" */;
+			buildPhases = (
+				F8CA39731BBF19E8005408AB /* Sources */,
+				F8CA39741BBF19E8005408AB /* Frameworks */,
+				F8CA39751BBF19E8005408AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CA39791BBF19E8005408AB /* PBXTargetDependency */,
+			);
+			name = TennisPointsTests;
+			productName = TennisPointsTests;
+			productReference = F8CA39771BBF19E8005408AB /* TennisPointsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8CA39811BBF19E8005408AB /* TennisPointsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CA39911BBF19E8005408AB /* Build configuration list for PBXNativeTarget "TennisPointsUITests" */;
+			buildPhases = (
+				F8CA397E1BBF19E8005408AB /* Sources */,
+				F8CA397F1BBF19E8005408AB /* Frameworks */,
+				F8CA39801BBF19E8005408AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CA39841BBF19E8005408AB /* PBXTargetDependency */,
+			);
+			name = TennisPointsUITests;
+			productName = TennisPointsUITests;
+			productReference = F8CA39821BBF19E8005408AB /* TennisPointsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8CA39561BBF19E8005408AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Richard  Beasley";
+				TargetAttributes = {
+					F8CA395D1BBF19E8005408AB = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TFB385AK3E;
+					};
+					F8CA39761BBF19E8005408AB = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TFB385AK3E;
+						TestTargetID = F8CA395D1BBF19E8005408AB;
+					};
+					F8CA39811BBF19E8005408AB = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TFB385AK3E;
+						TestTargetID = F8CA395D1BBF19E8005408AB;
+					};
+				};
+			};
+			buildConfigurationList = F8CA39591BBF19E8005408AB /* Build configuration list for PBXProject "TennisPoints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8CA39551BBF19E8005408AB;
+			productRefGroup = F8CA395F1BBF19E8005408AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8CA395D1BBF19E8005408AB /* TennisPoints */,
+				F8CA39761BBF19E8005408AB /* TennisPointsTests */,
+				F8CA39811BBF19E8005408AB /* TennisPointsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8CA395C1BBF19E8005408AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CA39711BBF19E8005408AB /* LaunchScreen.storyboard in Resources */,
+				F8CA396E1BBF19E8005408AB /* Assets.xcassets in Resources */,
+				F8CA396C1BBF19E8005408AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CA39751BBF19E8005408AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CA39801BBF19E8005408AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8CA395A1BBF19E8005408AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CA39691BBF19E8005408AB /* ViewController.m in Sources */,
+				F8CA39661BBF19E8005408AB /* AppDelegate.m in Sources */,
+				F8CA39631BBF19E8005408AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CA39731BBF19E8005408AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CA397C1BBF19E8005408AB /* TennisPointsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CA397E1BBF19E8005408AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CA39871BBF19E8005408AB /* TennisPointsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8CA39791BBF19E8005408AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CA395D1BBF19E8005408AB /* TennisPoints */;
+			targetProxy = F8CA39781BBF19E8005408AB /* PBXContainerItemProxy */;
+		};
+		F8CA39841BBF19E8005408AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CA395D1BBF19E8005408AB /* TennisPoints */;
+			targetProxy = F8CA39831BBF19E8005408AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8CA396A1BBF19E8005408AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CA396B1BBF19E8005408AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8CA396F1BBF19E8005408AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CA39701BBF19E8005408AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8CA39891BBF19E8005408AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8CA398A1BBF19E8005408AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CA398C1BBF19E8005408AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TennisPoints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisIQ.TennisPoints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8CA398D1BBF19E8005408AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TennisPoints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisIQ.TennisPoints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8CA398F1BBF19E8005408AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TennisPointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisIQ.TennisPointsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TennisPoints.app/TennisPoints";
+			};
+			name = Debug;
+		};
+		F8CA39901BBF19E8005408AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TennisPointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisIQ.TennisPointsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TennisPoints.app/TennisPoints";
+			};
+			name = Release;
+		};
+		F8CA39921BBF19E8005408AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TennisPointsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisIQ.TennisPointsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TennisPoints;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8CA39931BBF19E8005408AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TennisPointsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisIQ.TennisPointsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TennisPoints;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8CA39591BBF19E8005408AB /* Build configuration list for PBXProject "TennisPoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CA39891BBF19E8005408AB /* Debug */,
+				F8CA398A1BBF19E8005408AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CA398B1BBF19E8005408AB /* Build configuration list for PBXNativeTarget "TennisPoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CA398C1BBF19E8005408AB /* Debug */,
+				F8CA398D1BBF19E8005408AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8CA398E1BBF19E8005408AB /* Build configuration list for PBXNativeTarget "TennisPointsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CA398F1BBF19E8005408AB /* Debug */,
+				F8CA39901BBF19E8005408AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8CA39911BBF19E8005408AB /* Build configuration list for PBXNativeTarget "TennisPointsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CA39921BBF19E8005408AB /* Debug */,
+				F8CA39931BBF19E8005408AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8CA39561BBF19E8005408AB /* Project object */;
+}
